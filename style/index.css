@@ -1,1 +1,65 @@
 /* Add CSS styling here */
+*{
+  background-color:black;
+  color:white;
+}
+
+p{
+  line-height:25px;
+}
+
+img{
+  border: blue solid 1px;
+  width:300px;
+  height:200px;
+  padding:10px;
+  margin:15px;
+}
+
+.bigBox{display:flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+}
+
+.mePic{
+  height:600px;
+  width:600px;
+}
+
+.box1{
+  width:400px;
+  height:300px;
+  box-sizing:border-box;
+}
+
+.box1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  }
+
+.box2{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-evenly
+}
+
+.img1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+button{
+  background-color:blue;
+}
+
+.f1{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.b1{
+  width:85px;
+}
